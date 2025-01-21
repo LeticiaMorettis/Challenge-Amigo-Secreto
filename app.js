@@ -6,7 +6,7 @@ function adicionarAmigo() {
     const nome = campoNomeDoAmigo.value.trim();
 
     if (nome == "") {
-        alert("Por favor, insira um nome.");
+        alert("Por favor, insira um nome no campo.");
         return;
     }
 
