@@ -83,7 +83,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #000000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -102,7 +102,7 @@ body {
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(130, 44, 44, 0.3);
 }
 
 /* Estilos de botão */
@@ -129,7 +129,7 @@ button {
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
+    color: var(--color-primary);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
@@ -137,7 +137,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: var(--color-primary);
     font-size: 22px;
     font-weight: bold;
     text-align: center;
